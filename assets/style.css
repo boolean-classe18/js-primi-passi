@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+}
+
+footer {
+    background-color: blue;
+    height: 300px;
+}
+
+section {
+    height: calc(100vh - 100px - 300px);
+    background-color: yellow;
+}
